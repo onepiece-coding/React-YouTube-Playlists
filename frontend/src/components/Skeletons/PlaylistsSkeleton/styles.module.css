@@ -1,0 +1,23 @@
+
+.playlistsSkeleton {
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+    background-color: #E8EAEC;
+    border-radius: 0.375rem;
+    display: flex;
+    gap: 0.5rem;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.playlistSkeleton {
+    width: 165px;
+    height: 41px;
+    background-color: #DDDEE2;
+    border-radius: 0.375rem;
+}
+
+@keyframes pulse {
+    50% {
+        opacity: .5;
+    }
+}
