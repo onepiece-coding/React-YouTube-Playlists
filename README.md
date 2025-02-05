@@ -52,6 +52,8 @@ To get started with this project, follow these steps:
 
    npm run dev
 
+  ```
+
 ## Watch the Tutorial Video
 
 Learn how to build this project step-by-step by watching the tutorial on the OnePiece Coding YouTube channel: [Video Link]()
