@@ -7,7 +7,10 @@ const usePlaylists = () => {
   const { loading, error, records } = useSelector((state) => state.playlists);
 
   useEffect(() => {
-    dispatch(getPlaylists());
+    const promise = dispatch(getPlaylists());
+    return () => {
+      promise.abort();
+    };
   }, [dispatch]);
 
   return { loading, error, records };

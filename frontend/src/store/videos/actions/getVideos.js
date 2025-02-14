@@ -4,9 +4,12 @@ import BaseURL from "../../../apis/BaseURL";
 const getVideos = createAsyncThunk(
   "videos/getVideos",
   async (prefix, thunkAPI) => {
-    const { rejectWithValue } = thunkAPI;
+    const { rejectWithValue, signal } = thunkAPI;
     try {
-      const response = await BaseURL.get(`/videos?cat_prefix=${prefix}`);
+      const response = await BaseURL.get(
+        `/videos?cat_prefix=${prefix}`,
+        signal
+      );
       const data = response.data;
       return data;
     } catch (error) {

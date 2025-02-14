@@ -1,0 +1,11 @@
+
+.video {
+    transition: all .3s;
+}
+
+@media screen and (hover: hover) {
+    .video:hover {
+        background-color: #f6f6f6;
+        border-radius: 0.375rem;
+    }
+}

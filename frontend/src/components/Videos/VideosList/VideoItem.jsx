@@ -2,6 +2,7 @@
 /* eslint-disable react/prop-types */
 
 import { memo } from "react";
+import styles from "./styles.module.css";
 
 const ActiveVideoStyles = {
   backgroundColor: "#f6f6f6",
@@ -12,7 +13,7 @@ const VideoItem = memo(
   ({ video, onChangeVideoHandler, activeVideo, setActiveVideo }) => {
     return (
       <div
-        className={"d-flex align-items-center gap-2"}
+        className={`d-flex align-items-center gap-2 ${styles.video}`}
         style={
           activeVideo === video.id
             ? { ...ActiveVideoStyles }

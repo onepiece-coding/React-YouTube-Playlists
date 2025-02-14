@@ -4,8 +4,8 @@
 import { Col, Row } from "react-bootstrap";
 import { memo } from "react";
 import Loading from "../Loading/Loading";
-import VideosList from "./VideosList";
-import VideoDetails from "./VideoDetails";
+import VideosList from "./VideosList/VideosList";
+import VideoDetails from "./VideoDetails/VideoDetails";
 import useVideos from "../../hooks/videos/useVideos";
 
 const Videos = memo(({ selectedPlaylist }) => {

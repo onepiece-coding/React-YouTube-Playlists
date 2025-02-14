@@ -12,7 +12,10 @@ const useVideos = (selectedPlaylist) => {
   }, []);
 
   useEffect(() => {
-    dispatch(getVideos(selectedPlaylist));
+    const promise = dispatch(getVideos(selectedPlaylist));
+    return () => {
+      promise.abort();
+    };
   }, [dispatch, selectedPlaylist]);
 
   useEffect(() => {

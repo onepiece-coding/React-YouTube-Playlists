@@ -1,0 +1,32 @@
+
+.commentsSkeleton {
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.commentSkeleton {
+    width: 100%;
+    height: calc(30px + 1rem);
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    background-color: #E8EAEC;
+}
+
+.commentTextSkeleton {
+    width: 200px;
+    height: 30px;
+    border-radius: 0.375rem;
+    background-color: #DDDEE2;
+}
+
+.deleteCommentSkeleton {
+    width: 30px;
+    height: 30px;
+    border-radius: 0.375rem;
+    background-color: #DDDEE2;
+}
+
+@keyframes pulse {
+    50% {
+        opacity: .5;
+    }
+}
