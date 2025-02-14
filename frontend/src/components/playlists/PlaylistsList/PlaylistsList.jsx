@@ -2,8 +2,8 @@
 /* eslint-disable react/prop-types */
 
 import { memo } from "react";
-import PlaylistItem from "./PlaylistItem";
-import usePlaylistsList from "../../hooks/playlists/usePlaylistsList";
+import usePlaylistsList from "./usePlaylistsList";
+import PlaylistItem from "../PlaylistItem/PlaylistItem";
 
 const PlaylistsList = memo(({ playlists, onChangePlaylistHandler }) => {
   const { activePlaylist, activePlaylistHandler } = usePlaylistsList();

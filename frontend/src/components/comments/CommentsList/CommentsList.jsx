@@ -2,7 +2,7 @@
 /* eslint-disable react/prop-types */
 
 import { memo } from "react";
-import CommentItem from "./CommentItem";
+import CommentItem from "../CommentItem/CommentItem";
 
 const CommentsList = memo(({ comments }) => {
   const commentsList = comments.map((comment) => (

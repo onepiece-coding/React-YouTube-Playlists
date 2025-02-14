@@ -1,138 +1,221 @@
 {
   "playlists": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Web Development",
       "prefix": "web_development"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Mobile Development",
       "prefix": "mobile_development"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Desktop Development",
       "prefix": "desktop_development"
     }
   ],
   "videos": [
     {
-      "id": 1,
+      "id": "1",
       "title": "React Tutorial for Beginners",
       "description": "Master React 18 with TypeScript! ⚛️  Build amazing front-end apps with this beginner-friendly tutorial.",
-      "thumbnail": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "thumbnail": "https://img.youtube.com/vi/SqcY0GlETPk/sddefault.jpg",
       "embed_video": "https://www.youtube.com/embed/SqcY0GlETPk?si=WguQITFwl5q03N9A",
       "views": "3.9M views",
       "date": "1 years ago",
+      "subscribers": "4.37M",
+      "likes": 300,
+      "dislikes": 10,
       "auteur": {
-        "name": "Programming with Mosh"
+        "name": "Programming with Mosh",
+        "photo": "programming-with-mosh.jpeg"
       },
       "cat_prefix": "web_development"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Next js Tutorial for Beginners",
       "description": "Master Next.js 13 and build amazing full-stack apps! 🚀 This beginner-friendly tutorial covers the new App Router, TypeScript, and everything you need to get started.",
-      "thumbnail": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "thumbnail": "https://img.youtube.com/vi/ZVnjOPwW4ZA/sddefault.jpg",
       "embed_video": "https://www.youtube.com/embed/ZVnjOPwW4ZA?si=nQ4ZqQy5g7NAXmdD",
       "views": "4.35M views",
       "date": "1 years ago",
+      "subscribers": "4.37M",
+      "likes": 150,
+      "dislikes": 5,
       "auteur": {
-        "name": "Programming with Mosh"
+        "name": "Programming with Mosh",
+        "photo": "programming-with-mosh.jpeg"
       },
       "cat_prefix": "web_development"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "JavaScript Course for Beginners",
       "description": "Learn JavaScript basics with this quick, beginner-friendly course! ⚡ Perfect for new coders ready to build real skills and start programming with confidence.",
-      "thumbnail": "https://images.unsplash.com/photo-1554306274-f23873d9a26c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "thumbnail": "https://img.youtube.com/vi/W6NZfCO5SIk/sddefault.jpg",
       "embed_video": "https://www.youtube.com/embed/W6NZfCO5SIk?si=3q-BFOtS-lZ_ie0q",
       "views": "13M views",
       "date": "6 years ago",
+      "subscribers": "4.37M",
+      "likes": 100,
+      "dislikes": 2,
       "auteur": {
-        "name": "Programming with Mosh"
+        "name": "Programming with Mosh",
+        "photo": "programming-with-mosh.jpeg"
       },
       "cat_prefix": "web_development"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "React Native Tutorial for Beginners",
       "description": "Build amazing iOS & Android apps with React Native! 🚀 This beginner-friendly tutorial gets you started.",
-      "thumbnail": "https://images.unsplash.com/photo-1480694313141-fce5e697ee25?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "thumbnail": "https://img.youtube.com/vi/0-S5a0eXPoc/sddefault.jpg",
       "embed_video": "https://www.youtube.com/embed/0-S5a0eXPoc?si=n1K340Hy0tfm9Sak",
       "views": "3.5M views",
       "date": "4 years ago",
+      "subscribers": "4.37M",
+      "likes": 600,
+      "dislikes": 20,
       "auteur": {
-        "name": "Programming with Mosh"
+        "name": "Programming with Mosh",
+        "photo": "programming-with-mosh.jpeg"
       },
       "cat_prefix": "mobile_development"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Flutter Course for Beginners",
       "description": "Learn how to use Flutter in this complete course for beginners. Flutter is an open-source UI software development kit used to create cross-platform applications for iOS, Android, Windows, Mac, and more.",
-      "thumbnail": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "thumbnail": "https://img.youtube.com/vi/VPvVD8t02U8/sddefault.jpg",
       "embed_video": "https://www.youtube.com/embed/VPvVD8t02U8?si=mmFqZTkiSvA06JSR",
       "views": "3.1M views",
       "date": "2 years ago",
+      "subscribers": "10.5M",
+      "likes": 400,
+      "dislikes": 8,
       "auteur": {
-        "name": "FreeCodeCamp"
+        "name": "FreeCodeCamp",
+        "photo": "FreeCodeCamp.jpeg"
       },
       "cat_prefix": "mobile_development"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Android Development for Beginners",
       "description": "Learn how to develop an android app from scratch in this full course for beginners. No prior programming experience required!",
-      "thumbnail": "https://images.pexels.com/photos/248528/pexels-photo-248528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "thumbnail": "https://img.youtube.com/vi/fis26HvvDII/sddefault.jpg",
       "embed_video": "https://www.youtube.com/embed/fis26HvvDII?si=Ob-GF9j7WxMZN7si",
       "views": "4.5M views",
       "date": "4 years ago",
+      "subscribers": "10.5M",
+      "likes": 350,
+      "dislikes": 5,
       "auteur": {
-        "name": "FreeCodeCamp"
+        "name": "FreeCodeCamp",
+        "photo": "FreeCodeCamp.jpeg"
       },
       "cat_prefix": "mobile_development"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Electron Course - Code Desktop Applications",
       "description": "Learn how to use Electron, React, and TypeScript to build desktop applications. Throughout this course, you'll learn everything",
-      "thumbnail": "https://plus.unsplash.com/premium_photo-1720192861537-e9a54875365a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "thumbnail": "https://img.youtube.com/vi/fP-371MN0Ck/sddefault.jpg",
       "embed_video": "https://www.youtube.com/embed/fP-371MN0Ck?si=c3auaIDTXlhWg4Xu",
       "views": "206K views",
       "date": "3 months ago",
+      "subscribers": "10.5M",
+      "likes": 422,
+      "dislikes": 3,
       "auteur": {
-        "name": "FreeCodeCamp"
+        "name": "FreeCodeCamp",
+        "photo": "FreeCodeCamp.jpeg"
       },
       "cat_prefix": "desktop_development"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Build a Desktop App with Electron",
       "description": "Learn how to use Electron, React, and TypeScript to build desktop applications. Throughout this course, you'll learn everything",
-      "thumbnail": "https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "thumbnail": "https://img.youtube.com/vi/3yqDxhR2XxE/sddefault.jpg",
       "embed_video": "https://www.youtube.com/embed/3yqDxhR2XxE?si=NdIz_Gz5O_UrUmCv",
       "views": "1.1M views",
       "date": "4 years ago",
+      "subscribers": "3.67M",
+      "likes": 750,
+      "dislikes": 25,
       "auteur": {
-        "name": "Fireship"
+        "name": "Fireship",
+        "photo": "Fireship.jpeg"
       },
       "cat_prefix": "desktop_development"
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Building a Windows Desktop App in Flutter",
       "description": "In this tutorial, you will learn how to build a Windows desktop application using Flutter. Specifically, you'll be creating MetaTube, an app that simplifies handling YouTube video metadata.",
-      "thumbnail": "https://plus.unsplash.com/premium_photo-1720192861539-4dfcdffe7f0d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "thumbnail": "https://img.youtube.com/vi/SmmHdxAw8wA/sddefault.jpg",
       "embed_video": "https://www.youtube.com/embed/SmmHdxAw8wA?si=z-EqgEQSB6dWYNuB",
       "views": "44K views",
       "date": "1 years ago",
+      "subscribers": "6.41K",
+      "likes": 270,
+      "dislikes": 15,
       "auteur": {
-        "name": "Spellthorn"
+        "name": "Spellthorn",
+        "photo": "Spellthorn.jpeg"
       },
       "cat_prefix": "desktop_development"
+    }
+  ],
+  "comments": [
+    {
+      "id": "0690",
+      "videoId": 1,
+      "comment": "React Tutorial for Beginners"
+    },
+    {
+      "id": "a9f0",
+      "videoId": 2,
+      "comment": "Next js Tutorial for Beginners"
+    },
+    {
+      "id": "2659",
+      "videoId": 3,
+      "comment": "JavaScript Course for Beginners"
+    },
+    {
+      "id": "0799",
+      "videoId": 4,
+      "comment": "React Native Tutorial for Beginners"
+    },
+    {
+      "id": "5b77",
+      "videoId": 5,
+      "comment": "Flutter Course for Beginners"
+    },
+    {
+      "id": "552b",
+      "videoId": 6,
+      "comment": "Android Development for Beginners"
+    },
+    {
+      "id": "2e47",
+      "videoId": 7,
+      "comment": "Electron Course - Code Desktop Applications"
+    },
+    {
+      "id": "dd40",
+      "videoId": 8,
+      "comment": "Build a Desktop App with Electron"
+    },
+    {
+      "id": "2002",
+      "videoId": 9,
+      "comment": "Building a Windows Desktop App in Flutter"
     }
   ]
 }

@@ -1,31 +1,13 @@
 /* eslint-disable react/display-name */
 /* eslint-disable react/prop-types */
 
-import { memo, useState } from "react";
+import { memo } from "react";
 import { Button, Form, Spinner } from "react-bootstrap";
-import { addComment } from "../../store/comments/commentsSlice";
-import { useDispatch } from "react-redux";
+import useAddComment from "./useAddComment";
 
 const AddComment = memo(({ videoId }) => {
-  const dispatch = useDispatch();
-
-  const [isLoading, setIsLoading] = useState(false);
-  const [comment, setComment] = useState("");
-
-  const addCommentHandler = (e) => {
-    e.preventDefault();
-    setIsLoading(true);
-    dispatch(addComment({ videoId, comment }))
-      .unwrap()
-      .then(() => {
-        setIsLoading(false);
-        setComment("");
-      })
-      .catch(() => {
-        setIsLoading(false);
-        setComment("");
-      });
-  };
+  const { addCommentHandler, comment, setComment, isLoading } =
+    useAddComment(videoId);
 
   return (
     <div className="border border-2 rounded p-2 mt-2">

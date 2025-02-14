@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap";
-import Playlists from "./components/Playlists/Playlists";
-import Videos from "./components/Videos/Videos";
-import useApp from "./hooks/useApp";
+import useApp from "./useApp";
+import Playlists from "./components/Playlists/Playlists/Playlists";
+import Videos from "./components/Videos/videos/Videos";
 
 function App() {
   const { onChangePlaylistHandler, selectedPlaylist } = useApp();

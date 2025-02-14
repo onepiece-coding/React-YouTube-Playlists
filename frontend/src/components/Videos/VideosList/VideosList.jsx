@@ -2,8 +2,8 @@
 /* eslint-disable react/prop-types */
 
 import { memo } from "react";
-import useVideosList from "../../../hooks/videos/useVideosList";
-import VideoItem from "./VideoItem";
+import useVideosList from "./useVideosList";
+import VideoItem from "../VideoItem/VideoItem";
 
 const VideosList = memo(({ videos, onChangeVideoHandler }) => {
   const { activeVideo, setActiveVideo } = useVideosList(videos);

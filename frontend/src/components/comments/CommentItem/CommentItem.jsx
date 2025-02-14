@@ -1,24 +1,12 @@
 /* eslint-disable react/display-name */
 /* eslint-disable react/prop-types */
 
-import { memo, useState } from "react";
+import { memo } from "react";
 import { Button, Spinner } from "react-bootstrap";
-import { useDispatch } from "react-redux";
-import { deleteComment } from "../../store/comments/commentsSlice";
+import useCommentItem from "./useCommentItem";
 
 const CommentItem = memo(({ comment, id }) => {
-  const dispatch = useDispatch();
-
-  const [isLoading, setIsLoading] = useState(false);
-
-  const deleteCommentHandler = (id) => {
-    if (isLoading) return;
-    setIsLoading(true);
-    dispatch(deleteComment(id))
-      .unwrap()
-      .then(() => setIsLoading(false))
-      .catch(() => setIsLoading(false));
-  };
+  const { deleteCommentHandler, isLoading } = useCommentItem();
 
   return (
     <div className="d-flex justify-content-between align-items-center">

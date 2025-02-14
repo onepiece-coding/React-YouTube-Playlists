@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getVideos } from "../../store/videos/videosSlice";
+import { getVideos } from "../../../store/videos/videosSlice";
 
 const useVideos = (selectedPlaylist) => {
   const dispatch = useDispatch();

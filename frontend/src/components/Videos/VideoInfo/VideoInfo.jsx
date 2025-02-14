@@ -20,6 +20,7 @@ const VideoInfo = ({
             alt={auteur?.name}
             width={50}
             height={50}
+            style={{ borderRadius: "50%" }}
           />
           <div>
             <h4 className="fs-6 mb-0">{auteur?.name}</h4>

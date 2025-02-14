@@ -11,6 +11,7 @@ const PlaylistItem = memo(
     activePlaylist,
     activePlaylistHandler,
   }) => {
+    console.log(activePlaylist, playlist.id);
     return (
       <Nav.Item
         key={playlist.id}

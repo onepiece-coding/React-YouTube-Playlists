@@ -3,9 +3,10 @@
 
 import { Nav } from "react-bootstrap";
 import { memo } from "react";
-import PlaylistsList from "./PlaylistsList";
-import Loading from "../Loading/Loading";
-import usePlaylists from "../../hooks/playlists/usePlaylists";
+
+import usePlaylists from "./usePlaylists";
+import PlaylistsList from "../PlaylistsList/PlaylistsList";
+import Loading from "../../feedback/Loading/Loading";
 
 const Playlists = memo(({ onChangePlaylistHandler }) => {
   const { loading, error, records } = usePlaylists();

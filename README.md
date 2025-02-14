@@ -1,4 +1,6 @@
-# React YouTube Playlist App
+# React YouTube Playlists App
+
+![React YouTube Playlists](https://github.com/onepiece-coding/React-YouTube-Playlists/blob/main/frontend/public/screenshot.png)
 
 This project is a React-based YouTube Playlist application built using Redux Toolkit, React-Redux, React-Bootstrap, and Axios. It is designed to manage and display YouTube playlists and videos in a clean and responsive user interface.
 
@@ -31,8 +33,6 @@ This project is a React-based YouTube Playlist application built using Redux Too
 ## Installation
 
 To get started with this project, follow these steps:
-
-1. **Clone the repository**:
    
    ```bash
    
@@ -52,9 +52,11 @@ To get started with this project, follow these steps:
 
    npm run dev
 
+  ```
+
 ## Watch the Tutorial Video
 
-Learn how to build this project step-by-step by watching the tutorial on the OnePiece Coding YouTube channel: [Video Link]()
+Learn how to build this project step-by-step by watching the tutorial on the OnePiece Coding YouTube channel: [Video Link](https://www.youtube.com/watch?v=tHOfxro8Xdk)
 
 ## Connect with Me
 
